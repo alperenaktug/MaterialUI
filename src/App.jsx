@@ -1,7 +1,12 @@
 import "./App.css";
+import MUIButton from "./components/MUIButton";
 
 function App() {
-  return <div>MUI Lessons</div>;
+  return (
+    <div>
+      <MUIButton />
+    </div>
+  );
 }
 
 export default App;
